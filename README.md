@@ -1,16 +1,15 @@
-<<<<<<< HEAD
-# React + Vite
+This is my first React project.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Through this little project, I have learned something:
+1.before coding, I should have a map in my mind: how my website page look like?
+2.then decompose the entire page into some components. Then make them.
+3.index.html->main.jsx->App.jsx, that is how my work show at the brower.
+4."import" make my little components could be set in any page.
+5."state" has an amazing character: when it changed, the hold page will be draw again. So it can be used to record some change, such as a input.
+6.useState() return an array, include two item. They like two function: getter and setter.
+7.use props to transfer the data. And the props contain the hold part in the start point. Such like: <List item={item} onhandleClick={onhandleClick} />,
+that "props.item" could be marked as the first data tranfered.
+8.pay more attention to onclick={onclick()}, that will make a loop. Because that onclick() run directly, sometime it would set a state that will make the
+page draw again, and that make the function run.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# React
->>>>>>> f3484b822b8a4a00641f1ea933f661e0dc86359e
+These is what I want to record. Hope I will be better.
